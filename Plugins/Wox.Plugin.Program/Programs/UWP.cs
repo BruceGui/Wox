@@ -17,7 +17,7 @@ using Shell;
 using Wox.Infrastructure;
 using Wox.Infrastructure.Logger;
 using IStream = AppxPackaing.IStream;
-using Rect = System.Windows.Rect;
+using Rect = System.Windows.Rect; 
 
 namespace Wox.Plugin.Program.Programs
 {

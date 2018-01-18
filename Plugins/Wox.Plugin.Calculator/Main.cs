@@ -24,8 +24,8 @@ namespace Wox.Plugin.Caculator
         static Main()
         {
             yampContext = Parser.PrimaryContext;
-            Parser.InteractiveMode = false;
-            Parser.UseScripting = false;
+            //Parser.InteractiveMode = false;
+            //Parser.UseScripting = false;
         }
 
         public List<Result> Query(Query query)

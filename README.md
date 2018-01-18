@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 NOTE
 ====
 This project will not be maintained by @happlebao for about 2 month due to personal reason.
 
->>>>>>> 810ee422a1873dec9fadf9dfb6d02444430a6946
 WoX
 ===
 
@@ -21,11 +18,7 @@ Features
 
 - Search for everything—applications, **uwp**, folders, files and more.
 - Use *pinyin* to search for programs / 支持用 **拼音** 搜索程序
-<<<<<<< HEAD
-  - yyy / wangyiyun → 网易云音乐
-=======
   - wyy / wangyiyun → 网易云音乐
->>>>>>> 810ee422a1873dec9fadf9dfb6d02444430a6946
 - Keyword plugin search 
   - search google with `g search_term`
 - Build custom themes at http://www.getwox.com/theme/builder

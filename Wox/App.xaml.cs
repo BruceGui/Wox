@@ -95,12 +95,8 @@ namespace Wox
                 }
             }
         }
-
-<<<<<<< HEAD
-        [Conditional("RELEASE")]
-=======
-        //[Conditional("RELEASE")]
->>>>>>> 810ee422a1873dec9fadf9dfb6d02444430a6946
+         
+        [Conditional("RELEASE")] 
         private void AutoUpdates()
         {
             Task.Run(async () =>
