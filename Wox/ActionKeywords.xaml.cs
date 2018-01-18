@@ -39,7 +39,8 @@ namespace Wox
         private void btnDone_OnClick(object sender, RoutedEventArgs _)
         {
             var oldActionKeyword = _plugin.Metadata.ActionKeywords[0];
-            var newActionKeyword = tbAction.Text.Trim();
+            var newActionKeyword = tbAction.Text.Trim(); 
+            newActionKeyword = newActionKeyword.Length > 0 ? newActionKeyword : "*"; 
             if (!PluginManager.ActionKeywordRegistered(newActionKeyword))
             {
                 var id = _plugin.Metadata.ID;
